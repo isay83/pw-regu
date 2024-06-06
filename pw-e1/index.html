@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 1</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <header style="background-color:#2759bb;">Header</header>
+    <main style="background-color: #d74515; padding: 5px;">
+        <h1 style="text-align: center;">Título</h1>
+        <div style="margin: 10px; display: flex; justify-content: space-between; align-items: center;">
+            <div style="background-color: #27bb82; width: 400px;">
+                <form style="margin: 5px; display: flex; flex-direction: column;" action="" method="get">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <button style="width: 85px;" type="submit">Enviar</button>
+                </form>
+            </div>
+            <div
+                style="background-color: burlywood; width: 300px; display: flex; justify-content: center; align-items: center;">
+                <table style="margin: 10px; width: 250px; text-align: center;">
+                    <caption>
+                        Front-end web developer course 2021
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Person</th>
+                            <th scope="col">Most interest in</th>
+                            <th scope="col">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Chris</th>
+                            <td>HTML tables</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dennis</th>
+                            <td>Web accessibility</td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">Sarah</th>
+                            <td>JavaScript frameworks</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>Web performance</td>
+                            <td>36</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="2">Average age</th>
+                            <td>33</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <div style="background-color: #6719af; display: flex; justify-content: center;">
+            <img src="https://images.pexels.com/photos/15847154/pexels-photo-15847154/free-photo-of-panorama-urbano-skyline-verano-rascacielos.jpeg?auto=compress&cs=tinysrgb&w=220&h=150&dpr=1"
+                alt="colombia">
+        </div>
+    </main>
+    <footer style="background-color: #cb1d6b;">Footer</footer>
+</body>
+
+</html>

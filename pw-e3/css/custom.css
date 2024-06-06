@@ -1,0 +1,125 @@
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+a.vlink {
+    color: #efefef;
+    position: relative;
+    height: 54px;
+    width: 72px;
+    text-align: center;
+    line-height: 54px;
+    display: block;
+    font-size: 1.2rem;
+}
+
+a.vlink span {
+    position: absolute;
+    opacity: 0;
+    transition: transform 400ms ease-out;
+    margin-left: 24px;
+    box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.2)
+}
+
+/*a.vlink:nth-of-type(odd) {}*/
+
+a.vlink span:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #000;
+    left: -12px;
+    top: 33%;
+}
+
+a.vlink span:hover {
+    background: #000 !important;
+}
+
+a.vlink:hover {
+    box-shadow: 1px 2px 3px #245c7b;
+    /* Sombra */
+    /* Gradiente Azul */
+    background: rgb(57, 147, 195);
+    /* Antiguos navegadores */
+    background: -moz-linear-gradient(left, rgba(57, 147, 195, 1) 0%, rgba(34, 120, 163, 1) 50%, rgba(68, 172, 214, 1) 100%);
+    /* Firefox 3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(57, 147, 195, 1) 0%, rgba(34, 120, 163, 1) 50%, rgba(68, 172, 214, 1) 100%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(57, 147, 195, 1) 0%, rgba(34, 120, 163, 1) 50%, rgba(68, 172, 214, 1) 100%);
+    /* W3C, IE 10+, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3993c3', endColorstr='#44aed6', GradientType=1);
+    /* IE 6-9 */
+}
+
+
+a.vlink:hover span {
+    opacity: 1;
+    width: 120px;
+    transform: translateX(12px);
+    background: #343434;
+    font-size: 16px;
+    border-radius: 6px;
+    border-left: 4px solid #000;
+    padding: 0px 12px 0px 12px
+}
+
+ul {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: rgb(69, 72, 77);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45484d', endColorstr='#000000', GradientType=1);
+    /* IE6-9 */
+    box-shadow: -6px 12px 5px 2px rgba(145, 145, 145, 0.5)
+}
+
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.input-group.md-form.form-sm.form-2 input.purple-border {
+    border: 1px solid #9e9e9e;
+}
+
+.input-group.md-form.form-sm.form-2 input[type=text]:focus:not([readonly]).purple-border {
+    border: 1px solid #ba68c8;
+    box-shadow: none;
+}
+
+.form-2 .input-group-addon {
+    border: 1px solid #ba68c8;
+}
+
+.danger-text {
+    color: #ff3547;
+}
+
+.success-text {
+    color: #00C851;
+}
+
+.table-bordered.red-border,
+.table-bordered.red-border th,
+.table-bordered.red-border td {
+    border: 1px solid #ff3547 !important;
+}
+
+.table.table-bordered th {
+    text-align: center;
+}
